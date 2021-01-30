@@ -1,0 +1,3 @@
+#macro FRAME_RATE 60
+#macro TILE_WIDTH 16
+#macro TILE_HEIGHT 16

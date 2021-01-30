@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 1407,
+  "bbox_right": 3071,
   "bbox_top": 0,
-  "bbox_bottom": 1103,
+  "bbox_bottom": 1023,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1408,
-  "height": 1104,
+  "width": 3072,
+  "height": 1024,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"482213aa-9fa8-4ce1-a100-8627142bf90f","path":"sprites/spriteOverworld/spriteOverworld.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"482213aa-9fa8-4ce1-a100-8627142bf90f","path":"sprites/spriteOverworld/spriteOverworld.yy",},"LayerId":{"name":"36472c50-7afb-44de-b6ae-7ba812b82d35","path":"sprites/spriteOverworld/spriteOverworld.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spriteOverworld","path":"sprites/spriteOverworld/spriteOverworld.yy",},"resourceVersion":"1.0","name":"482213aa-9fa8-4ce1-a100-8627142bf90f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8e16b557-22bb-45cf-b0c1-4bf18b59deae","path":"sprites/spriteIndoorTileset/spriteIndoorTileset.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8e16b557-22bb-45cf-b0c1-4bf18b59deae","path":"sprites/spriteIndoorTileset/spriteIndoorTileset.yy",},"LayerId":{"name":"fec8704f-24b3-454f-b8c9-aa3ff40b7def","path":"sprites/spriteIndoorTileset/spriteIndoorTileset.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spriteIndoorTileset","path":"sprites/spriteIndoorTileset/spriteIndoorTileset.yy",},"resourceVersion":"1.0","name":"8e16b557-22bb-45cf-b0c1-4bf18b59deae","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spriteOverworld","path":"sprites/spriteOverworld/spriteOverworld.yy",},
+    "spriteId": {"name":"spriteIndoorTileset","path":"sprites/spriteIndoorTileset/spriteIndoorTileset.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a37ef2f1-b38a-4170-abd3-bbe2337a98dc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"482213aa-9fa8-4ce1-a100-8627142bf90f","path":"sprites/spriteOverworld/spriteOverworld.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4b25bcf0-a0b0-491b-b927-9a24bdf6742d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8e16b557-22bb-45cf-b0c1-4bf18b59deae","path":"sprites/spriteIndoorTileset/spriteIndoorTileset.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spriteOverworld","path":"sprites/spriteOverworld/spriteOverworld.yy",},
+    "parent": {"name":"spriteIndoorTileset","path":"sprites/spriteIndoorTileset/spriteIndoorTileset.yy",},
     "resourceVersion": "1.3",
-    "name": "spriteOverworld",
+    "name": "spriteIndoorTileset",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"36472c50-7afb-44de-b6ae-7ba812b82d35","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fec8704f-24b3-454f-b8c9-aa3ff40b7def","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spriteOverworld",
+  "name": "spriteIndoorTileset",
   "tags": [],
   "resourceType": "GMSprite",
 }
